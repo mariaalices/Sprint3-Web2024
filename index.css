@@ -1,0 +1,199 @@
+@import url("header.css");
+
+/* SECTION APRESENTAÇÃO */
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo-titulo {
+    font-size: 2rem;
+    text-align: center;
+    color: #ffd900;
+    text-decoration: underline;
+}
+
+.apresentacao__conteudo-texto {
+    font-size: 1.35rem;
+    color: #f1a3a3d2;
+}
+
+.apresentacao__imagem {
+    width: 50%;
+    transition: transform 0.3s;
+}
+
+.apresentacao__imagem:hover {
+    transform: scale(1.1);
+}
+
+/* SECTION APRESENTAÇÃO */
+
+/* CARROSSEL */
+
+.carrosel {
+    background: black;
+    height: auto;
+}
+
+.carrosel__titulo {
+    color: #ffd900;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+}
+
+.swiper-slide img {
+    width: 70%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .carrosel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 1.5em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+
+    .carrosel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+}
+
+/* CARROSSEL */
+
+/* VIDEOS */
+
+.videos__titulo {
+    padding-top: 30px;
+    color: #ffd900;
+    text-align: center;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.videos__transform:hover {
+    transform: scale(1.1);
+}
+
+/* VIDEOS */
+
+
+/* ARMAS */ 
+
+
+.armas__imagens {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 30px ;
+}
+
+.armas__imagens-i {
+    width: 30%;
+}
+
+.armas__conteudo {
+    color: #f1a3a3d2;
+    padding: 30px;
+}
+
+.armas__titulo {
+    padding-top: 30px;
+    color: #ffd900;
+    text-align: center;
+}
+
+/* ARMAS */ 
+
+/* HARDWARE */ 
+
+.hardware__titulo {
+    padding-top: 30px;
+    color: #ffd900;
+    text-align: center;
+}
+
+.hardware__cards {
+    display: flex;
+    gap: 10px;
+    padding:  80px; 
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    transform: scale(0.9);
+}
+
+/* HARDWARE */ 
+
+
+/* DUVIDAS */
+
+#duvidas {
+    height: 440px;
+}
+
+.duvidas__titulo {
+    text-align: center;
+    padding: 20px;
+    color: #ffd900;
+}
+
+/* DUVIDAS */
+

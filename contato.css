@@ -1,0 +1,81 @@
+@import url("header.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #220100, #C60406);
+}
+
+/* EQUIPE */
+
+.integrantes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    margin: 30px 0;
+    gap: 160px;
+}
+
+.equipe__titulo .equipe__texto{
+    display: flex;
+    justify-content: center;
+    border: 10px;
+    padding: 10px;
+}
+
+.equipe__titulo {
+    font-size: 50px;
+    text-align: center;
+    color: #e1c629;
+}
+
+.equipe__texto {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.integrantes__infos{
+    color: #e1c629;
+    padding: 10px;
+}
+
+/* EQUIPE */
+
+/* CONTATO */
+
+.formulario__titulo {
+    text-align: center;
+    color: rgb(255, 174, 0);
+}
+
+.form-label, .telefone {
+    color: #e1c629;
+    font-size: 20px;
+}
+
+/* CONTATO */
+
+@media only screen and (max-width: 768px) {
+    .integrantes {
+        gap: 10px; 
+        flex-wrap: wrap;
+    }
+
+    .integrantes__infos {
+        font-size: 14px;
+    }
+
+    .equipe__titulo {
+        font-size: 25px;
+    }
+
+    .equipe__texto {
+        font: 10px;
+    }
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <div class="logo"> <img src="img/logo.png" style="height: 100%;" alt=""></div>
+                <li class="menu__suspenso menu__item">
+                    <a href="index.html">O robô</a>
+                    <ul class="menu__suspenso-conteudo">
+                        <li class="menu__item"><a href="#galeria-fotos">Galeria de Fotos</a></li>
+                        <li class="menu__item"><a href="#videos">O processo</a></li>
+                        <li class="menu__item"><a href="#armas">Sistema de Arma</a></li>
+                        <li class="menu__item"><a href="#hardware">Hardware</a></li>
+                        <li class="menu__item"><a href="#duvidas">Dúvidas</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item"><a href="socio.html">Quem somos?</a></li>
+                <li class="menu__item"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="apresentacao" id="aprensentacao">
+        <div class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo-titulo">O robô</h1>
+            <p class="apresentacao__conteudo-texto">Em um laboratório de faculdade, um grupo de alunos se uniu para
+                criar um robô básico para uma competição entre colegas. Com entusiasmo e determinação, eles enfrentaram
+                desafios técnicos, ajustando circuitos e escrevendo código, até finalmente apresentarem seu robô diante
+                de uma plateia ansiosa. Embora tenham enfrentado contratempos, o trabalho em equipe e a dedicação do
+                grupo resultaram em uma experiência de aprendizado valiosa e em um robô que impressionou a todos.</p>
+        </div>
+        <img src="img/foto-grupo.jpg" alt="" class="apresentacao__imagem">
+    </section>
+
+    <section class="carrosel" id="galeria-fotos">
+        <h2 class="carrosel__titulo">Galeria de Fotos</h2>
+        <!-- Slider main container -->
+        <div class="carrosel__container">
+            <div class="swiper container">
+                <!-- If we need pagination -->
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper ">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/fotos-robo-antes/robo.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/fotos-robo-antes/robo1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/fotos-robo-antes/robo2.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/fotos-robo-antes/robo3.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/fotos-robo-depois/robo-frente-ativado.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/fotos-robo-depois/robo-cima.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/fotos-robo-depois/robo-frente.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/fotos-robo-depois/robo-cima.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/fotos-robo-depois/robo-lado.jpg" alt=""></div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="videos">
+        <h1 class="videos__titulo">Processo criativo</h1>
+        <div class="videos">
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/B9hDgii3wDw?si=nnwuGUbWTwtJSmpI"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos__transform"></iframe>
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/HCYhJh2e0Mc?si=3jpXGg4VWjqHLkW8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos__transform"></iframe>
+        </div>
+    </section>
+
+    <section id="armas">
+        <h1 class="armas__titulo">Sistemas de Arma</h1>
+        <p class="armas__conteudo">Os materiais das armas serão feitos de MDF 3mm com a primeira arma sendo de ataque
+            rotatório (esquerda para a direita) onde seus espinhos são compostos de agulhas que permitirão explodir a
+            bexiga.</p>
+        <div class="armas__imagens">
+            <img src="img/arma/sistema-arma.jpg" class="armas__imagens-i" alt="Desenho da arma e da mesma ativada.">
+            <img src="img/arma/sistema-arma1.jpg" class="armas__imagens-i"
+                alt="Desenho mais detalhado do robô, com os sensores de verde e sua arma para dentro e ativada.">
+        </div>
+    </section>
+
+    <section id="hardware">
+        <h1 class="hardware__titulo">Componentes de HARDWARE</h1>
+        <div class="hardware__cards">
+            <div class="card" style="width: 18rem;">
+                <img src="img/componentes/arduino-mega.jpg" class="card-img-top" alt="Imagem do Arduino Mega 2560">
+                <div class="card-body">
+                    <h5 class="card-title">Arduino Mega 2560</h5>
+                    <p class="card-text">Controla tanto os motores de roda quanto os demais motores utilizados para
+                        movimentos e funcionalidades especificas.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/componentes/modulo-bluetooth-hc05.png" class="card-img-top"
+                    alt="Imagem do Modulo Bluetooth HC-05">
+                <div class="card-body">
+                    <h5 class="card-title">Módulo Bluetooth HC-05</h5>
+                    <p class="card-text">Permite a comunicação via Bluetooth entre o arduino e outros dispositivos, como
+                        smarthphones, por exemplo.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/componentes/motor-dc-roda.png" class="card-img-top"
+                    alt="Imagem dos Motores DC 3-6v e das Rodas de 65mm">
+                <div class="card-body">
+                    <h5 class="card-title">Motores DC 3-6v e rodas 65mm</h5>
+                    <p class="card-text">Responsáveis por realizar a movimentação do robô. Os motores também foram
+                        utilizados para a movimentação dar armas.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/componentes/ponte-hl9110.webp" class="card-img-top"
+                    alt="Imagem da Ponte H Dupla DC L9110s">
+                <div class="card-body">
+                    <h5 class="card-title">Ponte H Dupla DC L9110s</h5>
+                    <p class="card-text">Permite o controle da direção de rotação dos motores DC.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/componentes/soquete.jpg" class="card-img-top" alt="Imagem de soquete">
+                <div class="card-body">
+                    <h5 class="card-title">Soquete 6 pilhas</h5>
+                    <p class="card-text">As pilhas são conectadas através do soquete, pois fornecem a energia necessária
+                        para o funcionamento do sistema, permitindo que o robô se movimente e execute as ações
+                        necessárias.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/componentes/chave-alavanca.jpg" class="card-img-top" alt="Imagem da chave alavanca">
+                <div class="card-body">
+                    <h5 class="card-title">Chave Alavanca</h5>
+                    <p class="card-text">Utilizada para ligar e desligar o sistema do robô.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/componentes/driver.jpg" class="card-img-top" alt="Imagem do Driver">
+                <div class="card-body">
+                    <h5 class="card-title">Driver Controlador para 4 Motores DC</h5>
+                    <p class="card-text">Responsável pela troca de direção, de ir para frente e para trás.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/componentes/chave-fim-curso.jpg" class="card-img-top"
+                    alt="Imagem de Chave de Fim de Curso">
+                <div class="card-body">
+                    <h5 class="card-title">Chave Fim de Curso</h5>
+                    <p class="card-text">As chaves de fim de curso foram utilizadas para realizar o acionamento das
+                        armas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="duvidas">
+        <h1 class="duvidas__titulo">Dúvidas frequentes sobre o projeto</h1>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                        O que é a Robocup?
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">É um projeto que visa a integração das disciplinas e dos alunos do 1º
+                        ano do curso
+                        de Sistemas de Informação em 2023(24). E consiste no projeto, desenvolvimento e documentação de
+                        um robô
+                        articulado sobre rodas com controle eletrônico integrado com todas as disciplinas dos 1º anos de
+                        SI.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        O que é o NEXT?
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">NEXT é o maior festival da FIAP. O dia em que alunos e alunas lotam a
+                        arena e sobem
+                        ao palco para dar um verdadeiro show de criatividade, inovação e tecnologia.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Quando e onde acontecerão?
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">As datas de ambos eventos ainda não foram definidas, porém a previsão
+                        para a Robocup é de acontecer nos dias 14/09/2024 e 21/09/2024 na FIAP - Unidade Lins. Já o
+                        NEXT, dia 28/10/2024 no LOCAL Q EU NAO LEMRO O NOMW.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Existe loja física?
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Não, não temos loja física. Nosso atendimento é exclusivamente digital
+                        para possibilitar que você entre em contato conosco, não importa onde esteja!</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        Têm robôs disponíveis para pronta entrega?
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Não, trabalhamos com encomendas para possibilitar a total personalização
+                        do robô para seu negócio. Nosso objetivo é integrar nossos robôs por completo nas organizações
+                        com as quais nos procuram.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <a href="contato.html">Contato</a>
+        <a href="#">Sobre</a>
+        <a href="#">Termos de uso</a>
+        <a href="#">Politica de privacidade</a>
+        <a href="#">Serviços</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 2,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+
+</body>
+
+</html>
